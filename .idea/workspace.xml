@@ -5,7 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f489a6-bfb7-4939-b7b8-4b65377574c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ContactManagerProV2.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/contacts.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repositories/interfaces/contact_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repositories/sqlite/sqlite_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repositories/sqlite/sqlite_contact_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/backup_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/contact_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/import_export_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/contact_detail_dialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/contacts/contact_05df1cd2ec78452dbc97c346a0351e68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/contacts/contact_7af2dc3a35134f1b8e4263a2c4fefe0b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/ContactManagerProV2.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/warn-ContactManagerProV2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/xref-ContactManagerProV2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ContactManagerProV2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installer.iss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installer_output/ContactManagerProV2_Setup.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structure.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/contact_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/contact_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/contact_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/contact_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/contact_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/contact_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/main_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,35 +67,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.contact_controller.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.setup_project.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "I:/AI Engennering Project/Contact-Manager-V2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.contact_controller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.setup_project.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/AI Engennering Project/Contact-Manager-V2/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\AI Engennering Project\Contact-Manager-V2\app" />
       <recent name="I:\AI Engennering Project\Contact-Manager-V-01\Mini Contact Manager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\AI Engennering Project\Contact-Manager-V2\app\repositories" />
     </key>
   </component>
   <component name="SharedIndexes">

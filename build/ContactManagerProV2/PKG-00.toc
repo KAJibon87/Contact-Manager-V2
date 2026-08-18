@@ -1,0 +1,871 @@
+('I:\\AI Engennering '
+ 'Project\\Contact-Manager-V2\\build\\ContactManagerProV2\\ContactManagerProV2.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\build\\ContactManagerProV2\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\build\\ContactManagerProV2\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\build\\ContactManagerProV2\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\build\\ContactManagerProV2\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\build\\ContactManagerProV2\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\build\\ContactManagerProV2\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyside6',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyside6.py',
+   'PYSOURCE'),
+  ('run', 'I:\\AI Engennering Project\\Contact-Manager-V2\\run.py', 'PYSOURCE'),
+  ('python313.dll',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtiff.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwebp.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qpdf.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qsvg.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qwindows.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qgif.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qico.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qicns.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtga.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qminimal.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'BINARY'),
+  ('PySide6\\opengl32sw.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\opengl32sw.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'BINARY'),
+  ('_lzma.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtGui.pyd',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\QtGui.pyd',
+   'EXTENSION'),
+  ('shiboken6\\Shiboken.pyd',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\shiboken6\\Shiboken.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtNetwork.pyd',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\QtNetwork.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtCore.pyd',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\QtCore.pyd',
+   'EXTENSION'),
+  ('_sqlite3.pyd',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtWidgets.pyd',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Core.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Gui.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6Gui.dll',
+   'BINARY'),
+  ('shiboken6\\MSVCP140.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\shiboken6\\MSVCP140.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Pdf.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6Pdf.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Svg.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6Svg.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Network.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
+   'BINARY'),
+  ('PySide6\\Qt6VirtualKeyboard.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Widgets.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140_2.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140_2.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140.dll',
+   'BINARY'),
+  ('PySide6\\VCRUNTIME140_1.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\python3.dll',
+   'BINARY'),
+  ('PySide6\\pyside6.abi3.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll',
+   'BINARY'),
+  ('shiboken6\\shiboken6.abi3.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll',
+   'BINARY'),
+  ('PySide6\\VCRUNTIME140.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('shiboken6\\VCRUNTIME140.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('shiboken6\\VCRUNTIME140_1.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'C:\\Users\\ka\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\sqlite3.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140_1.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Qml.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6Qml.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Quick.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6Quick.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlMeta.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlMeta.dll',
+   'BINARY'),
+  ('PySide6\\Qt6OpenGL.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6OpenGL.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlModels.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlModels.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlWorkerScript.dll',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlWorkerScript.dll',
+   'BINARY'),
+  ('app\\.gitignore',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\.gitignore',
+   'DATA'),
+  ('app\\README.md',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\README.md',
+   'DATA'),
+  ('app\\__pycache__\\main.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\__pycache__\\main.cpython-313.pyc',
+   'DATA'),
+  ('app\\config\\__pycache__\\settings.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\config\\__pycache__\\settings.cpython-313.pyc',
+   'DATA'),
+  ('app\\config\\settings.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\config\\settings.py',
+   'DATA'),
+  ('app\\controllers\\__init__.py',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\controllers\\__init__.py',
+   'DATA'),
+  ('app\\controllers\\__pycache__\\__init__.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\controllers\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('app\\controllers\\__pycache__\\contact_controller.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\controllers\\__pycache__\\contact_controller.cpython-313.pyc',
+   'DATA'),
+  ('app\\controllers\\contact_controller.py',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\controllers\\contact_controller.py',
+   'DATA'),
+  ('app\\data\\contacts.db',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\data\\contacts.db',
+   'DATA'),
+  ('app\\database\\__init__.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\database\\__init__.py',
+   'DATA'),
+  ('app\\database\\__pycache__\\__init__.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\database\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('app\\database\\__pycache__\\database.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\database\\__pycache__\\database.cpython-313.pyc',
+   'DATA'),
+  ('app\\database\\contacts.db',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\database\\contacts.db',
+   'DATA'),
+  ('app\\database\\database.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\database\\database.py',
+   'DATA'),
+  ('app\\main.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\main.py',
+   'DATA'),
+  ('app\\models\\__init__.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\models\\__init__.py',
+   'DATA'),
+  ('app\\models\\__pycache__\\__init__.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\models\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('app\\models\\__pycache__\\contact.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\models\\__pycache__\\contact.cpython-313.pyc',
+   'DATA'),
+  ('app\\models\\contact.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\models\\contact.py',
+   'DATA'),
+  ('app\\repositories\\interfaces\\__pycache__\\contact_repository.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\repositories\\interfaces\\__pycache__\\contact_repository.cpython-313.pyc',
+   'DATA'),
+  ('app\\repositories\\interfaces\\contact_repository.py',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\repositories\\interfaces\\contact_repository.py',
+   'DATA'),
+  ('app\\repositories\\sqlite\\__pycache__\\sqlite_connection.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\repositories\\sqlite\\__pycache__\\sqlite_connection.cpython-313.pyc',
+   'DATA'),
+  ('app\\repositories\\sqlite\\__pycache__\\sqlite_contact_repository.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\repositories\\sqlite\\__pycache__\\sqlite_contact_repository.cpython-313.pyc',
+   'DATA'),
+  ('app\\repositories\\sqlite\\sqlite_connection.py',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\repositories\\sqlite\\sqlite_connection.py',
+   'DATA'),
+  ('app\\repositories\\sqlite\\sqlite_contact_repository.py',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\repositories\\sqlite\\sqlite_contact_repository.py',
+   'DATA'),
+  ('app\\requirements.txt',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\requirements.txt',
+   'DATA'),
+  ('app\\services\\__init__.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\services\\__init__.py',
+   'DATA'),
+  ('app\\services\\__pycache__\\__init__.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\services\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('app\\services\\__pycache__\\backup_service.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\services\\__pycache__\\backup_service.cpython-313.pyc',
+   'DATA'),
+  ('app\\services\\__pycache__\\contact_service.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\services\\__pycache__\\contact_service.cpython-313.pyc',
+   'DATA'),
+  ('app\\services\\__pycache__\\import_export_service.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\services\\__pycache__\\import_export_service.cpython-313.pyc',
+   'DATA'),
+  ('app\\services\\backup_service.py',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\services\\backup_service.py',
+   'DATA'),
+  ('app\\services\\contact_service.py',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\services\\contact_service.py',
+   'DATA'),
+  ('app\\services\\import_export_service.py',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\services\\import_export_service.py',
+   'DATA'),
+  ('app\\services\\search_service.py',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\services\\search_service.py',
+   'DATA'),
+  ('app\\ui\\__init__.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\ui\\__init__.py',
+   'DATA'),
+  ('app\\ui\\__pycache__\\__init__.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\ui\\__pycache__\\__init__.cpython-313.pyc',
+   'DATA'),
+  ('app\\ui\\__pycache__\\contact_detail_dialog.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\ui\\__pycache__\\contact_detail_dialog.cpython-313.pyc',
+   'DATA'),
+  ('app\\ui\\__pycache__\\contact_form.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\ui\\__pycache__\\contact_form.cpython-313.pyc',
+   'DATA'),
+  ('app\\ui\\__pycache__\\contact_table.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\ui\\__pycache__\\contact_table.cpython-313.pyc',
+   'DATA'),
+  ('app\\ui\\__pycache__\\main_window.cpython-313.pyc',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\ui\\__pycache__\\main_window.cpython-313.pyc',
+   'DATA'),
+  ('app\\ui\\contact_detail_dialog.py',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\app\\ui\\contact_detail_dialog.py',
+   'DATA'),
+  ('app\\ui\\contact_form.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\ui\\contact_form.py',
+   'DATA'),
+  ('app\\ui\\contact_table.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\ui\\contact_table.py',
+   'DATA'),
+  ('app\\ui\\main_window.py',
+   'I:\\AI Engennering Project\\Contact-Manager-V2\\app\\ui\\main_window.py',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lg.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_lg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_TW.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_de.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_he.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_it.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_fr.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_uk.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_it.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fa.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ca.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ja.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_es.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_da.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ar.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pl.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hu.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_tr.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_CN.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sl.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sk.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_tr.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ja.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pl.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gl.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sk.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nl.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_CN.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hr.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nl.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_tr.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_bg.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ru.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hr.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hu.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sv.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pt_BR.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ko.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sv.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_uk.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fi.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ja.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ru.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hu.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_en.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_es.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fi.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_uk.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_cs.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_en.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_it.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_BR.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gd.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_PT.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sl.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_TW.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fa.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sv.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lg.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ka.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_gl.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_cs.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nn.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ca.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_en.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pl.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sk.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ka.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ar.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ca.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ka.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lv.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_de.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fr.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_da.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_he.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_bg.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_bg.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lt.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nl.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nn.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ko.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nn.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fr.qm',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V-01\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('base_library.zip',
+   'I:\\AI Engennering '
+   'Project\\Contact-Manager-V2\\build\\ContactManagerProV2\\base_library.zip',
+   'DATA')],
+ 'python313.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

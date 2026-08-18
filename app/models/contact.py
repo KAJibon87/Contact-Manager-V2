@@ -30,6 +30,8 @@ class Contact:
         email (str): Contact's email address.
         address (str): Contact's physical/mailing address.
         notes (str): Free-form notes about the contact.
+        photo_path (str): Filesystem path to the contact's photo, or
+            an empty string if no photo has been set.
     """
 
     first_name: str
@@ -38,6 +40,7 @@ class Contact:
     email: str = ""
     address: str = ""
     notes: str = ""
+    photo_path: str = ""
     id: Optional[int] = field(default=None)
 
     @property
@@ -61,15 +64,16 @@ class Contact:
         """
         return asdict(self)
 
-    def to_tuple(self) -> tuple[str, str, str, str, str, str]:
+    def to_tuple(self) -> tuple[str, str, str, str, str, str, str]:
         """
         Convert this Contact instance into a tuple of field values,
         excluding the id, in the order expected by SQL INSERT/UPDATE
         statements.
 
         Returns:
-            tuple[str, str, str, str, str, str]: A tuple containing
-            (first_name, last_name, phone, email, address, notes).
+            tuple[str, str, str, str, str, str, str]: A tuple
+            containing (first_name, last_name, phone, email, address,
+            notes, photo_path).
         """
         return (
             self.first_name,
@@ -78,6 +82,7 @@ class Contact:
             self.email,
             self.address,
             self.notes,
+            self.photo_path,
         )
 
     @staticmethod
@@ -102,6 +107,7 @@ class Contact:
             email=data.get("email", ""),
             address=data.get("address", ""),
             notes=data.get("notes", ""),
+            photo_path=data.get("photo_path", ""),
         )
 
     @staticmethod
@@ -110,7 +116,8 @@ class Contact:
         Create a Contact instance from a raw SQLite row tuple.
 
         The expected row column order is:
-        (id, first_name, last_name, phone, email, address, notes)
+        (id, first_name, last_name, phone, email, address, notes,
+        photo_path)
 
         Args:
             row (tuple[Any, ...]): A tuple representing a single row
@@ -120,11 +127,11 @@ class Contact:
             Contact: A new Contact instance populated from the row.
 
         Raises:
-            ValueError: If the row does not contain exactly 7 fields.
+            ValueError: If the row does not contain exactly 8 fields.
         """
-        if len(row) != 7:
+        if len(row) != 8:
             raise ValueError(
-                f"Expected 7 columns in row, got {len(row)}: {row}"
+                f"Expected 8 columns in row, got {len(row)}: {row}"
             )
 
         (
@@ -135,6 +142,7 @@ class Contact:
             email,
             address,
             notes,
+            photo_path,
         ) = row
 
         return Contact(
@@ -145,9 +153,9 @@ class Contact:
             email=email,
             address=address,
             notes=notes,
+            photo_path=photo_path or "",
         )
 
-    @property
     def __str__(self) -> str:
         """
         Return a human-readable string representation of the contact.
