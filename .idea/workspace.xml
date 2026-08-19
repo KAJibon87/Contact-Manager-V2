@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f489a6-bfb7-4939-b7b8-4b65377574c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ContactManagerProV2.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/data/contacts.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repositories/interfaces/contact_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repositories/sqlite/sqlite_connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repositories/sqlite/sqlite_contact_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/backup_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/contact_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/import_export_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/contact_detail_dialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/contacts/contact_05df1cd2ec78452dbc97c346a0351e68.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/contacts/contact_7af2dc3a35134f1b8e4263a2c4fefe0b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/ContactManagerProV2.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/warn-ContactManagerProV2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/ContactManagerProV2/xref-ContactManagerProV2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/ContactManagerProV2.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installer.iss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installer_output/ContactManagerProV2_Setup.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/contact_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/contact_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ui/contact_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/contact_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ui/contact_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/contact_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ui/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/main_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
